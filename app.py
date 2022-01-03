@@ -47,7 +47,7 @@ st.title('Image SEGMENTATION')
 
 uploaded_image = st.file_uploader('Choose an image')
 
-unet=tf.keras.models.load_model('unet_model_v4.h5')
+# unet=tf.keras.models.load_model('unet_model_v4.h5')
 
 
 if uploaded_image is not None:
