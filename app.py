@@ -63,25 +63,25 @@ if uploaded_image is not None:
         image_path = os.path.join('uploads',uploaded_image.name)#tf.keras.utils.get_file('image'+image_extension, origin=image_url)
         # print(image_path)
 
-        input_img=process_path(image_path)
-        input_img=input_img[tf.newaxis,...]
+#         input_img=process_path(image_path)
+#         input_img=input_img[tf.newaxis,...]
 
-        mask=unet.predict(input_img)
-        pred_mask = tf.argmax(mask, axis=-1)
-        pred_mask = pred_mask[..., tf.newaxis]
-        pred_mask=pred_mask[0]
-        input_img=input_img[0]
-        #print('Prediction Caption:', ' '.join(result))
-        #plot_attention(image_path, result, attention_plot)
-        # opening the image
+#         mask=unet.predict(input_img)
+#         pred_mask = tf.argmax(mask, axis=-1)
+#         pred_mask = pred_mask[..., tf.newaxis]
+#         pred_mask=pred_mask[0]
+#         input_img=input_img[0]
+#         #print('Prediction Caption:', ' '.join(result))
+#         #plot_attention(image_path, result, attention_plot)
+#         # opening the image
         
-        fig, arr = plt.subplots(1, 2, figsize=(14, 10))
-        arr[0].imshow(tf.keras.preprocessing.image.array_to_img(input_img))
-        arr[0].set_title('Image')
-        arr[1].imshow(tf.keras.preprocessing.image.array_to_img(pred_mask))
-        arr[1].set_title('Segmentation')
-        plt.savefig('foo.png')
-        # col1 = st.beta_columns(1)
+#         fig, arr = plt.subplots(1, 2, figsize=(14, 10))
+#         arr[0].imshow(tf.keras.preprocessing.image.array_to_img(input_img))
+#         arr[0].set_title('Image')
+#         arr[1].imshow(tf.keras.preprocessing.image.array_to_img(pred_mask))
+#         arr[1].set_title('Segmentation')
+#         plt.savefig('foo.png')
+#         # col1 = st.beta_columns(1)
 
         display_image = Image.open("foo.png")
         # with col1:
