@@ -12,7 +12,7 @@ analysis of the image simpler.</li>
 <br>
   <li> Steps to Run:</li>
   <br>
-  1.Install Requirements : \fbox{pip install -r requirements.txt}
+  1.Install Requirements : '''bash pip install -r requirements.txt'''
   <br>
   2.Start webapp: `streamlit run app.py`
 </ul>
