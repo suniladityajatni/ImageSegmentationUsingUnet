@@ -5,5 +5,6 @@
 <img src="https://github.com/suniladityajatni/ImageSegmentationUsingUnet/blob/master/unet.png" height=400 width=1000\>
 
 * Steps to Run:
-  1.Install Requirements : `bash pip install -r requirements.txt`
-  2.Start webapp: `streamlit run app.py`
+
+1.Install Requirements : `bash pip install -r requirements.txt`
+2.Start webapp: `streamlit run app.py`
