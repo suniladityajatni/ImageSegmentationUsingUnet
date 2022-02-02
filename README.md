@@ -8,7 +8,7 @@ analysis of the image simpler.</li>
 <br>
 <li> Model arcitecture:</li>
 <br>
-<img src="https://github.com/suniladityajatni/ImageSegmentationUsingUnet/blob/master/unet.png" height=600 width=600\>
+<img src="https://github.com/suniladityajatni/ImageSegmentationUsingUnet/blob/master/unet.png" height=500 width=1000\>
 <br>
   <li> Steps to Run:</li>
   <br>
