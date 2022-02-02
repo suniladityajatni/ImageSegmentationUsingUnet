@@ -1,4 +1,5 @@
 # ImageSegmentationUsingUnet
+*
 <ul>
 <li> Image segmentation is a method in which a digital image is broken down into various subgroups called
 Image segments which helps in reducing the complexity of the image to make further processing or
