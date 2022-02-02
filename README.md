@@ -6,5 +6,6 @@
 
 * Steps to Run:
 
-1.Install Requirements : `bash pip install -r requirements.txt`
-2.Start webapp: `streamlit run app.py`
+  1.Install Requirements : `bash pip install -r requirements.txt`
+  
+  2.Start webapp: `streamlit run app.py`
