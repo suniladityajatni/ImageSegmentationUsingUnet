@@ -8,8 +8,11 @@ analysis of the image simpler.</li>
 <br>
 <li> Model arcitecture:</li>
 <br>
-<img src="https://github.com/suniladityajatni/ImageSegmentationUsingUnet/blob/master/unet.png" height=300 width=300\>
+<img src="https://github.com/suniladityajatni/ImageSegmentationUsingUnet/blob/master/unet.png" height=600 width=600\>
 <br>
-"*" Steps to Run:
-1.Install Requirements : pip install -r requirements.txt
-2.Start webapp: streamlit run app.py
+  <li> Steps to Run:</li>
+  <br>
+  1.Install Requirements : pip install -r requirements.txt
+  <br>
+  2.Start webapp: streamlit run app.py
+</ul>
